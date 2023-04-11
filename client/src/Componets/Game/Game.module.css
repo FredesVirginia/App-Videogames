@@ -1,0 +1,109 @@
+.containerGames{
+   
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    height: 85vh;
+    width: 62vh;
+    text-align: center;
+  background-color: black;
+    background-repeat: no-repeat;
+     color: white;
+    background-size: cover;
+}
+
+.name{
+  background-color: rgba(140, 15, 21, 0.515);
+  font-size: 24px;
+}
+
+.imgGame{
+    width: 60vh;
+    height: 45vh;
+    border-radius: 30px; 
+}
+.containerH3Game{
+    color: white;
+   
+    background-color: rgba(140, 15, 21, 0.515);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.linkR{
+    color: white;
+   text-decoration: none;
+    font-size: 25px;
+  
+   font-weight: 700;
+   
+}
+
+.linkR:hover{
+  color:darkblue;
+}
+.button {
+  background-color:brown;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button:hover{
+  
+   animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #4CAF50;
+  }
+  50% {
+    background-color: #8BC34A;
+  }
+  100% {
+    background-color: #4CAF50;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.containerGen{
+  height: 66px;
+ 
+
+    font-size: 20px;
+   
+    color: wheat;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+h3{
+  color: white;
+}
+
+.cajaLink{
+  background-color: rgba(140, 15, 65, 0.573);
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cerrar{
+background-color: blue;
+width: 30px;
+margin-left: 60px;
+}

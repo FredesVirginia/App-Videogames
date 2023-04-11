@@ -1,0 +1,210 @@
+
+.secundario{
+  
+      display: grid;
+     grid-template-columns : repeat(2, 1fr);
+      width: 70%;
+      margin-left: 200px;
+      
+     
+  }
+.inputForm{
+    margin: 3px;
+    width: 60vh;
+    height: 4vh;
+    background-color:gainsboro;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  
+    
+}
+
+
+
+.h2Title{
+    background-color: rgba(0, 0, 0, 0.5);
+   text-align: center;
+   color: white;
+   font-size: 30px;
+   margin-top: 0;
+   margin-left: 130px;
+}
+
+
+
+.formLink{
+    font-size: 30px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+     color: white;
+  
+     padding-left: 40px;
+     padding-right: 40px;
+     text-decoration: none;
+    margin-right: 620px;
+     font-weight: 700;
+}
+.formLink:hover {
+    color:aqua;
+  }
+  .alert {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.25rem;
+  }
+
+.divH{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.form{
+
+ background-color:  rgba(0, 0, 0, 0.73);
+ width: 650px;
+ padding: 20px;
+ display: flex;
+ flex-direction: row;
+
+
+ justify-content: center;
+ 
+ border-radius: 60px;
+
+ color: white;
+ font-weight: 700;
+ margin-top: 30px;
+ margin-left: 40px;
+}
+.select{
+   
+    width: 60vh;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:  0px;
+}
+
+.botonF{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 19px;
+    width: 60vh; 
+    font-size: 20px;
+    height: 3vh;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.temperamentscontainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.temperaments{
+    
+  
+  width: 20vh;
+  
+}
+.divInput{
+    display:inline;
+   border: 3px aqua solid;
+   font-size: 14px;
+   color:red;
+   font-weight: 700;
+}
+.divInput1{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+   margin: 9px;
+   color:red;
+   font-weight: 700;
+   font-size: 16px;
+   
+  
+}
+
+.genero{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   
+    margin-left: 18px;
+}
+
+
+
+.container2{
+    background-color:  rgba(0, 0, 0, 0.73);
+    border-radius: 60px;
+   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    width: 700px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.imageU{
+    width: 400px;
+    height: 300px;
+}
+
+.divGP{
+  
+    display:flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.divRR{
+    background-color:  rgba(72, 27, 218, 0.607);
+    width: 500px;
+    color:white;
+    margin-left: 70px;
+    font-weight: 22px;
+    font-weight: 700;
+}
+
+.divG{
+ 
+    background-color:  rgba(0, 0, 0, 0.5);
+    color:white;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 130px;
+}
+.name{
+    color:white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.divP{
+   
+    background-color:  rgba(0, 0, 0, 0.5);
+    color:white;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.divD{
+   
+    background-color:  rgba(0, 0, 0, 0.5);
+    color:white;
+    width: 500px;
+    padding: 4px;
+    padding-left: 34px;
+    padding-right: 34px;
+    text-align: center;
+    margin-left: 40px;
+}

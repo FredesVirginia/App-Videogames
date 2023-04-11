@@ -1,0 +1,50 @@
+.containerLadding{
+    margin-top: 200px;
+   text-align: center;
+   
+   
+}
+
+.h1Ladding{
+   text-align: center;
+   color: white;
+  font-size: 24px;
+ 
+  background-color: rgba(0, 0, 0, 0.59);
+  padding: 1px;
+  height: 14vh;
+   
+}
+
+.pLadding{
+   margin-top: -40px;
+   color: white;
+   font-weight: 700;
+   width: 100vh;
+   font-size: 26px;
+   
+   border-radius: 20px;
+   background-color: rgba(0, 0, 0, 0.5);
+  
+   margin-top:10px ;
+   margin-left: 500px
+}
+.btnLadding{
+   padding:10px;
+   font-size: 26px;
+   font-weight: 800;
+  
+   background-color: rgba(0, 0, 0, 0.59);
+   width: 24vh;
+   border-radius: 40px;
+   color:cornflowerblue;
+   border-style: none;
+   margin-top: 20px;
+}
+
+.btnLadding:hover{
+   color:blue;
+   background-color:black;
+}
+
+

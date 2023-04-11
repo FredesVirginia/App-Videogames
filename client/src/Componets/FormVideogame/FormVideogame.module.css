@@ -1,0 +1,169 @@
+.containerForm{  
+
+    background-color: white;
+   
+    font-size: 20px;
+    width: 190vh;
+    display: flex;
+    flex-direction: column;
+   
+   padding-top: 20px;
+   padding-left: 69px;
+    height: 78vh;
+}
+
+.inputForm{
+    margin: 3px;
+    width: 60vh;
+    height: 4vh;
+    background-color:gainsboro;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  
+    
+}
+
+.containerImagen{
+    background: url("../../Img/image7.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-right: 90px;
+    padding-left: 80px;
+    width: 100vh;
+    height: 80vh;
+    text-align: center;
+  
+}
+
+.containerImagen h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    margin: 20px;
+    color: white;
+}
+
+.form{
+   
+    display: flex;
+    justify-content: left;
+    width: 140vh;
+    height: 80vh;
+    flex-direction: row;
+    margin-left: 40vh;
+    margin-top:20px;
+   
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.select{
+    width: 62vh; 
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.botonF{
+    margin-top:10px;
+    margin-bottom:10px;
+    width: 62vh; 
+    font-size: 20px;
+    height: 3vh;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.h2Title{
+    background-color: rgba(0, 0, 0, 0.5);
+   text-align: center;
+   color: white;
+   font-size: 30px;
+   margin-top: 0;
+   margin-left: 130px;
+}
+
+.errorContainer{
+
+position: absolute;
+
+}
+
+.formLink{
+    font-size: 30px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+     color: white;
+  
+     padding-left: 40px;
+     padding-right: 40px;
+     text-decoration: none;
+    margin-right: 620px;
+     font-weight: 700;
+}
+.formLink:hover {
+    color:aqua;
+  }
+  .alert {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.25rem;
+  }
+
+.divH{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.divInput{
+    display:inline;
+   border: 3px aqua solid;
+   font-size: 14px;
+   color:red;
+   font-weight: 700;
+}
+.divInput1{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+   margin: 9px;
+   color:red;
+   font-weight: 700;
+   font-size: 16px;
+   
+  
+}
+
+.temperamentscontainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.temperaments{
+    
+  
+  width: 20vh;
+  
+}
+
+.error{
+    position: absolute;
+    top: 20px;
+    right: -80px; /* o cualquier otro valor para ajustar la posición */
+   
+   
+    color:red;
+    font-size: 19px;
+    font-weight: 700;
+   
+    width: 60vh;
+}
+
+.error1{
+    color:red;
+    font-size: 19px;
+    font-weight: 700;
+}

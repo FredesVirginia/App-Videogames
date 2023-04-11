@@ -1,0 +1,112 @@
+.principalD{
+    background-color: rgba(0, 0, 0, 0.748);
+    text-align: center;
+    color: white;
+}
+
+.imageU{
+    width: 500px;
+    height: 400px;
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 80px;
+}
+
+.h2Title{
+    background-color: rgba(0, 0, 0, 0.5);
+   text-align: center;
+   color: white;
+   font-size: 30px;
+   margin-top: 0;
+   margin-left: 10px;
+}
+
+h1 {
+    color: white;
+}
+.containerId{
+    
+    display: grid;
+     grid-template-columns : repeat(4, 0fr);
+     background-color: rgba(0, 0, 0, 0.444);
+    width: 100%;
+}
+
+.formLink{
+    font-size: 30px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+     color: white;
+  
+     padding-left: 40px;
+     padding-right: 40px;
+     text-decoration: none;
+    margin-right: 620px;
+     font-weight: 700;
+}
+.divH{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.formLink:hover {
+    color:aqua;
+  }
+.container3aaa{
+    padding: 10px;
+    background-color: rgba(10, 45, 101, 0.63);
+    width: 400px;
+    margin-left: 60px;
+}
+
+.divGP{
+  
+    display:flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.divRR{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    color:white;
+   
+    font-weight: 22px;
+    font-weight: 700;
+}
+
+.divG{
+ 
+    background-color:  rgba(0, 0, 0, 0.5);
+    color:white;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.divP{
+   
+    background-color:  rgba(0, 0, 0, 0.5);
+    color:white;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.divD{
+   
+    background-color:  rgba(0, 0, 0, 0.5);
+    color:white;
+    width: 500px;
+    padding: 4px;
+    padding-left: 34px;
+    padding-right: 34px;
+    text-align: center;
+    
+}
+

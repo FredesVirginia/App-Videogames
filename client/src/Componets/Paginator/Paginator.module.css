@@ -1,0 +1,20 @@
+
+
+.divPaginator{
+    display: inline-block;
+   border: 3px black solid;
+   height: 7vh;
+   text-align: center;
+   width: 100%;
+   background-color: black;
+   padding-top: 20px;
+ }
+ 
+ .botonP{
+     list-style: none;
+     border:none;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.727);
+     font-size: 22px;
+     font-weight: 700;
+     margin: 4px;
+ }
