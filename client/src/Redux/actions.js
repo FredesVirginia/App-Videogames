@@ -3,7 +3,7 @@ import axios from "axios";
     export function getAllVideogames(){
         return async function (dispatch){
             try{
-                const allVideogames = await axios.get("http://localhost:3001/videogames");
+                const allVideogames = await axios.get("videogames");
                 return dispatch ({
                     type: "GET_ALL_VIDEOGAMES",
                     payload: allVideogames.data
@@ -24,7 +24,7 @@ import axios from "axios";
     export function getVideogameId(id){
         return async function (dispatch){
             try{
-                const response = await axios.get(`http://localhost:3001/videogames/game/${id}`);
+                const response = await axios.get(`videogames/game/${id}`);
                 console.log("La respueta desde action ID es " , response.data);
                  dispatch({
                         type: "VIDEOGAME_FOR_ID",
@@ -39,7 +39,7 @@ import axios from "axios";
     export function getAllVideogamesAPI(){
         return async function(dispatch){
             try{
-                let allVideogames = await axios.get("http://localhost:3001/videogames");
+                let allVideogames = await axios.get("videogames");
                 let respuesta = allVideogames.data.filter((game) =>  {return  game.userCreated === false});
                 console.log("Reustas deste action getGameApi", respuesta)
                 dispatch({
@@ -55,7 +55,7 @@ import axios from "axios";
     export function getAllVideogamesBBDD(){
         return async function(dispatch){
             try{
-                let allVideogames = await axios.get("http://localhost:3001/videogames");
+                let allVideogames = await axios.get("videogames");
                 let respuesta = allVideogames.data.filter((game) =>  {return  game.userCreated === true});
                 console.log("Reustas deste action getGameApi", respuesta)
                 dispatch({
@@ -76,7 +76,7 @@ import axios from "axios";
            if(ide){
              return async function (dispatch){
                 try{
-                const response = await axios.delete(`http://localhost:3001/videogames/${id}`);
+                const response = await axios.delete(`videogames/${id}`);
                 console.log("VIDEOGAME BORRADO" , response);
                 dispatch({
                     type: "DELETE_BBDD",
@@ -100,7 +100,7 @@ import axios from "axios";
         return async function (dispatch){
             try{
                 console.log("EL videogames dese action put es ", videogame)
-                const reqs = await axios.put(`http://localhost:3001/videogames/${id}`, videogame);
+                const reqs = await axios.put(`videogames/${id}`, videogame);
                 console.log("EL videogame ACTUALIZADO" , reqs)
                 return dispatch ({
                     type : "UPDATE_VIDEOGAME"
@@ -115,7 +115,7 @@ import axios from "axios";
     export function getNameVideogames(name){
         return async function (dispatch){
             try{
-                const allVideogames = await axios.get(`http://localhost:3001/videogames/?name=${name}`);
+                const allVideogames = await axios.get(`videogames/?name=${name}`);
                 return dispatch({
                     type: "GET_NAME_VIDEOGAMES",
                     payload : allVideogames.data
@@ -129,7 +129,7 @@ import axios from "axios";
     export function createVideogame(game){
         return async function (dispatch){
             try{
-                const newGame = await axios.post(`http://localhost:3001/videogames`,game);
+                const newGame = await axios.post(`videogames`,game);
                 console.log("Desde action. Videogame creado es " , newGame);
                 return dispatch({
                     type: "CREATE_VIDEOGAME"
@@ -143,7 +143,7 @@ import axios from "axios";
     export function getGenres(){
         return async function(dispatch){
             try{
-                const allGenres = await axios.get("http://localhost:3001/genres");
+                const allGenres = await axios.get("genres");
                 return dispatch({
                     type : "GET_ALL_GENRES",
                     payload : allGenres.data
@@ -157,7 +157,7 @@ import axios from "axios";
     export function getVideogameForGenres(genre){
         return async function (dispatch){
            try{
-            const response = await axios.get("http://localhost:3001/videogames");
+            const response = await axios.get("videogames");
             const responseGenre = response.data.filter((game) =>{
                 //aqui en el split, no se por que pero es necesario poner la coma come esta ahi
                 return game.genres && game.genres.split(", ").includes(genre);
@@ -177,7 +177,7 @@ import axios from "axios";
     export function getPlatforms(){
         return async function (dispatch){
             try{
-                const allPlatforms = await axios.get("http://localhost:3001/platforms");
+                const allPlatforms = await axios.get("platforms");
                 return dispatch({
                     type: "GET_ALL_PLATFORMS",
                     payload : allPlatforms.data
@@ -191,7 +191,7 @@ import axios from "axios";
     export function getVideogameForPlatform(platform){
         return async function (dispatch){
             try{
-                const response = await axios.get("http://localhost:3001/videogames");
+                const response = await axios.get("videogames");
                 const allresponse= response.data.filter((elem)=>{
                     return elem.platforms && elem.platforms.split(", ").includes(platform)
                 });
