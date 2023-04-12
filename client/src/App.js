@@ -7,7 +7,7 @@ import FormVideogame from "./Componets/FormVideogame/FormVideogame";
 import VideogameId from './Componets/VideogameId/VideogameId';
 import UpdateVideogame from './Componets/UpdateVideogame/UpdateVideogame';
 import axios from "axios";
-axios.defaults.baseURL = "app-videogames-production.up.railway.app" ;
+axios.defaults.baseURL = "app-videogames-production.up.railway.app/" ;
 
 
 const App = () => {
