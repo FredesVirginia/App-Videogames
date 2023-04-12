@@ -1,5 +1,5 @@
 
-const API_KEY ="838c9325f9044edbb1ecd3b21479fd30";
+const API_KEY ="97e9895abf9b42af856bd5453366cb64";
 const axios = require('axios').default;
 const { Videogame , Platforms , Genres} = require ("../db")
 require('dotenv').config();
