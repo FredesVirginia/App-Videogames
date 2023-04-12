@@ -7,10 +7,12 @@ import axios from "axios";
                 return dispatch ({
                     type: "GET_ALL_VIDEOGAMES",
                     payload: allVideogames.data
+
+
                 })
                 
             }catch(error){
-                console.log("Error desde action ", error);
+                console.log("Error desde action es este ", error);
             }
         }
     }
