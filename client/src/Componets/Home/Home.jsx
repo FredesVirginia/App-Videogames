@@ -4,7 +4,7 @@ import GamesContainer from '../GamesContainer/GamesContainer';
 const Home = () => {
     return (
         <div>  
-            <Nav/>
+           
             <GamesContainer/>
         </div>
     );
